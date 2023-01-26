@@ -1,0 +1,198 @@
+:root{
+--salmon: #ef8172;
+--darksalmon: #ff4c68;
+--grey: #8f8f8f;
+--white: #fff;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+i{
+    padding-right: 15px;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Headings */
+
+.main-heading{
+    text-align: left;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+/* Sections */
+.colored-section{
+    background-color: var(--darksalmon);
+    color: var(--white);
+}
+.white-section{
+    background-color: var(--white);
+}
+
+/* Section Title */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    position: relative;
+    z-index: 0;
+}
+
+/* Navbar */
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* Subsection Title */
+
+#apple{
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+#google-play{
+    margin-top: 20px;
+    margin-right: 150px;
+    text-align: left;
+}
+#phone{
+    padding-right: 300px;
+}
+.title-image{
+    transform: rotate(25deg);
+    margin-top: 30px;
+    margin-right: 100px;
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+}
+
+@media (max-width: 1000px) {
+    .title-image {
+        transform: rotate(0);
+        position: static;
+        margin-left: 0;
+    }
+    .main-heading{
+        text-align: center;
+    }
+    #title{
+        text-align: center;
+    }
+    #apple{
+        margin-right: 0;
+    }
+    #google-play{
+        margin-top: 20px;
+        margin-right: 0;
+        text-align: left;
+    }
+}
+
+/* Features */
+
+#features{
+    position: relative;
+    z-index: 0;
+}
+.features-headings{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.features-description{
+    color: var(--grey);
+    margin-bottom: 50px;
+}
+.icons-features {
+    color:var(--salmon);  
+    font-size: 80px;
+    padding-right: 0;
+}
+.icons-features:hover{
+    color: var(--darksalmon)
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: var(--salmon);
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    MARGIN: 20px;
+}
+
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    background-color: var(--salmon);
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+.pricing-column{
+    padding: 3% 2%;
+}
+.pricing-title{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.price-type{
+    font-weight: 700;
+}
+#button-1{
+    margin-top: 40px;
+}
+#button-2{
+    margin-top: 40px;
+}
+
+/* Call to action */
+
+.h3-cta{
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin: auto 10% 70px 10%;
+}
+#btn-cta-1{
+    margin-right: 15px;
+}
+#btn-cta-2{
+    margin-left: 15px;
+}
+
+/* Footer */
+
+.copyright-text{
+    margin-top: 20px;
+}
